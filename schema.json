@@ -1,0 +1,28 @@
+{
+  "name": "perplexity_search",
+  "description": "Perform a search query using the Perplexity API via HTTP POST request.",
+  "parameters": {
+    "type": "object",
+    "properties": {
+      "query": {
+        "type": "string",
+        "description": "The search query string. Required."
+      },
+      "max_results": {
+        "type": "integer",
+        "description": "The number of results to return. Optional. Default is 5 if omitted."
+      },
+      "max_tokens_per_page": {
+        "type": "integer",
+        "description": "The number of tokens to return per search result. Optional. Default is 1024 if omitted."
+      },
+      "country": {
+        "type": "string",
+        "description": "For location-specific searches, choose \"GB\" for close to the user, or whatever country code is applicable if explicitly directed by the user. Optional. Omit if results are not geographic location-specific."
+      }
+    },
+    "required": [
+      "query"
+    ]
+  }
+}
