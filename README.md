@@ -13,3 +13,6 @@ I added this script into Letta for example (the schema shown was auto-generated 
 - Implemented docstring instructions around use of the country code that are specific to me and not honed:
   - Amend "GB" to your most relavant country code, or amend entirely if this advice to calling LLMs is not desired
   - Evolve wording (i.e. this is prompt engineering) if your agent goes off the rails e.g. it makes non-geographic searches country specific
+
+
+***Don't forget to add your Perplexity API key via whatever method is relevant to your use***
